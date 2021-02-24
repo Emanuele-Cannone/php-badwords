@@ -13,7 +13,9 @@
 <body>
     
     <h1>ciao sono <?php echo 'emanuele' .$cognome; ?></h1>
-    fernovenwovoien
-    
+
+
+
+    <h2>ciao io sono <?php echo $_GET['primovalore'] ?></h2>    
 </body>
 </html>
