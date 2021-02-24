@@ -1,7 +1,8 @@
 <?php 
-    $cognome = $argv[1];
-    $altro = $argv[2];
+    $testo = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sequi facilis quibusdam soluta ab inventore, tempora doloribus hic asperiores optio quisquam a, nihil minus reiciendis commodi earum ipsam rem maxime.';
+    $badword = $_GET[parola]
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,10 +14,8 @@
 </head>
 <body>
     
-    <h1>ciao sono <?php echo 'NOME' .$cognome .$altro; ?></h1>
+<h2><?php echo $testo; echo ' la lunghezza è ' .strlen($testo); ?></h2>
+<h2><?php echo str_replace($badword , '***', $testo); ?></h2>
 
-
-
-    <h2>ciao io sono <?php echo $_GET['primovalore'] ?></h2>
 </body>
 </html>
