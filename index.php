@@ -1,5 +1,6 @@
 <?php 
-    $cognome= 'cannone';
+    $cognome = $argv[1];
+    $altro = $argv[2];
 ?>
 
 <!DOCTYPE html>
@@ -12,10 +13,10 @@
 </head>
 <body>
     
-    <h1>ciao sono <?php echo 'emanuele' .$cognome; ?></h1>
+    <h1>ciao sono <?php echo 'NOME' .$cognome .$altro; ?></h1>
 
 
 
-    <h2>ciao io sono <?php echo $_GET['primovalore'] ?></h2>    
+    <h2>ciao io sono <?php echo $_GET['primovalore'] ?></h2>
 </body>
 </html>
